@@ -1,0 +1,71 @@
+.body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url('./assets/fondo.png');
+}
+
+.header{
+  background-color: rgb(43, 43, 43);
+  color: #fff;
+  padding-right: 10px !important;
+}
+
+.formgroup{
+  background-color: rgb(231, 231, 231);
+  padding: 5px;
+}
+
+label{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.btn-print{
+  background-color: rgb(51, 51, 51) !important;
+  color: #fff !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  font-size: 15px !important;
+}
+
+.btnclose{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+}
+
+.footerModal{
+  margin-top: 10px;
+}
+
+th{
+  font-size: 12px;
+  border: 1px solid #C0C0C0 !important;
+  
+}
+
+td{
+  font-size: 12px;
+  border: 1px solid #C0C0C0 !important;
+  font-weight: 600;
+}
+
+table{
+  border: 1px solid #C0C0C0 !important;
+}
+
+.inputNumber{
+  border: none;
+  font-size: 12px
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
